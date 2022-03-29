@@ -1,31 +1,55 @@
 .main_comic-details{
+    .blue_band{
+    height: 50px;
+    background-color: #0182F9;
+    }
     .comic-details__top{
         background-color: white;
         display: flex;
-        padding: 5rem;
+        padding: 3rem;
         justify-content: center;
         .container_comic-details{
+            h1{
+                text-transform: uppercase;
+            }
             .price-box{
                 display: flex;
-                background-color: greenyellow;
+                background-color: #55ba59;
+                padding: 0.6rem;
+                margin: 1rem 0;
+                font-size: 0.7rem;
+                
                 .price-box__left{
                     display: flex;
                     justify-content: space-between;
                     flex-basis: 80%;
                     padding-right: 1rem;
+                    align-items: center;
+                    color: white;
                 }
                 .price-box__right{
+                    padding-left: 1rem;
                     flex-basis: 20%;
                     text-align: center;
                     border-left: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    white-space: nowrap;
+                    justify-content: center;
+                    color: white;
                 }
             }
             .text-box{
-                max-width: 500px;
+                max-width: 600px;
+                font-size: 0.9rem;
+                line-height: 1.2rem;
             }
         }
         .adv_container{
             padding-left: 2rem;
+            p{
+                text-align: right;
+            }
         }
     }
 

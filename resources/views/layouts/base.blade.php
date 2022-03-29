@@ -11,7 +11,7 @@
     @yield('cssAggiuntivi')
 
 </head>
-<body>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
 
     @include('partials.header')
 

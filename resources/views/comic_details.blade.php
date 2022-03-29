@@ -4,6 +4,9 @@
 
 @section('content')
 <main class="main_comic-details">
+    <section class="blue_band">
+        
+    </section>
     <section class="comic-details__top">
         <div class="container_comic-details">
             <h1>
@@ -11,7 +14,7 @@
             </h1> 
             <div class="price-box">
                 <div class="price-box__left">
-                    <span>U.S PRICE:{{$comic['price']}}</span>
+                    <span>U.S PRICE: {{$comic['price']}}</span>
                     <span>Availabe</span>
                 </div>
                 <div class="price-box__right">
