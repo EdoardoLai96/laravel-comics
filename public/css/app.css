@@ -172,7 +172,7 @@ header ul li a {
   width: 80%;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -196,7 +196,37 @@ header ul li a {
   width: min-content;
   white-space: nowrap;
   margin: auto;
+  margin-bottom: 2rem;
   padding: 10px 30px;
+}
+
+.main_home .nav {
+  display: flex;
+  background-color: #3880f1;
+  padding: 2rem 12rem;
+  justify-content: space-around;
+}
+
+.main_home .nav li {
+  display: flex;
+  align-items: center;
+  flex-basis: 15%;
+  justify-content: space-evenly;
+}
+
+.main_home .nav li a {
+  color: white;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.main_home .nav li img {
+  height: 60px;
+  padding-right: 10px;
+}
+
+.main_home .nav li #power-visa {
+  height: 50px;
 }
 
 .card_box {

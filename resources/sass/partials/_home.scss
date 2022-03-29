@@ -9,7 +9,7 @@
       width: 80%;
       margin: auto;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       flex-wrap: wrap;
       .load_more.top{
         position: absolute;
@@ -29,8 +29,35 @@
       width: min-content;
       white-space: nowrap;
       margin: auto;
+      margin-bottom: 2rem;
       padding: 10px 30px;
     }
+
+    .nav{
+      display: flex;
+      background-color: $primaryColor;
+      padding: 2rem 12rem;
+      justify-content: space-around;
+      li{
+        display: flex;
+        align-items: center;
+        flex-basis: 15%;
+        justify-content: space-evenly;
+        a{
+          color: white;
+          font-size: 0.8rem;
+          white-space: nowrap;
+        }
+        img{
+          height: 60px;
+          padding-right: 10px;
+        }
+        #power-visa{
+          height: 50px;
+        }
+      }
+    }
+
   }
   
 
@@ -57,5 +84,6 @@
         margin-bottom: 20px;
 
     }
+
 
 }
