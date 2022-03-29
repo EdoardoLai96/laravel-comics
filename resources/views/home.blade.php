@@ -3,7 +3,7 @@
 @section('pageTitle', 'Comics')
 
 @section('content')
-<main>
+<main class="main_home">
 
     {{-- <div class="jumbotron">
         
@@ -26,6 +26,6 @@
     <div class="load_more">
         LOAD MORE
     </div>
-</main>
+</main class="main_home">
 
 @endsection

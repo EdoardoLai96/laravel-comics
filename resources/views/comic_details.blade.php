@@ -85,7 +85,37 @@
         </div>
 
         <div class="container_comic-details__bottom_bottom">
-            BOTTOM
+            <div class="col col-1 ">
+                <h5>DIGITAL COMICS</h5>
+                <div>
+                    <img src="/img/buy-comics-digital-comics.png" alt="">
+                </div>
+            </div>
+            
+            <div class="col col-2">
+                <h5>SHOP DC</h5>
+                <div>
+                    <img src="/img/buy-comics-merchandise.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="col col-3 ">
+                <h5>COMIC SHOP LOCATOR</h5>
+                <div>
+                    <img src="/img/buy-comics-shop-locator.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="col col-4">
+                    <h5>SUBSCRIPTIONS</h5>
+                    <div>
+                        <img src="/img/buy-comics-subscriptions.png" alt="">
+
+                    </div>
+            </div>
+
         </div>
     </section>
 </main>
