@@ -49,7 +49,7 @@ header ul li a {
 }
 
 .footer_top {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/img/footer-bg.jpg");
   margin: auto;
   padding: 50px 15%;
   display: flex;
@@ -160,8 +160,10 @@ main {
 }
 
 main .jumbotron {
-  height: 500px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 700px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main .container {
