@@ -20,7 +20,7 @@
             <div class="price-box">
                 <div class="price-box__left">
                     <span>U.S PRICE: {{$comic['price']}}</span>
-                    <span>Availabe</span>
+                    <span>Available</span>
                 </div>
                 <div class="price-box__right">
                     <span>Check Availability</span>
