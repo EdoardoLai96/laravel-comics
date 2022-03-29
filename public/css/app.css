@@ -227,13 +227,13 @@ main .load_more {
 .main_comic-details .comic-details__top {
   background-color: white;
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   justify-content: center;
 }
 
 .main_comic-details .comic-details__top a {
   position: absolute;
-  bottom: 21rem;
+  top: -21rem;
 }
 
 .main_comic-details .comic-details__top a div {
@@ -317,6 +317,68 @@ main .load_more {
 
 .main_comic-details .comic-details__top .adv_container p {
   text-align: right;
+}
+
+.main_comic-details .comic-details__bottom {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right {
+  flex-basis: 50%;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left .row,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.7);
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left .row h4,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row h4 {
+  white-space: nowrap;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left .row div,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row div {
+  flex-basis: 50%;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left .row div a,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row div a {
+  font-size: 0.8rem;
+  color: #3880f1;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left .row div span,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row div span {
+  font-size: 0.8rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__left {
+  padding-left: 8rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right {
+  padding-right: 8rem;
+  padding-left: 2rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row_2,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row_3,
+.main_comic-details .comic-details__bottom .container_comic-details__bottom__right .row_4 {
+  padding: 0.5rem 1rem;
+}
+
+.main_comic-details .comic-details__bottom .container_comic-details__bottom_bottom {
+  flex-basis: 100%;
 }
 
 #jumbotron {

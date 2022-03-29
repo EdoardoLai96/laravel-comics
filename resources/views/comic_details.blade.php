@@ -36,15 +36,56 @@
         </div>
     </section>
 
-    <section class="comic-details_bottom">
+    <section class="comic-details__bottom">
         <div class="container_comic-details__bottom__left">
-            
+            <div class="row row_1">
+                <h2>Talent</h2>
+            </div>
+            <div class="row row_2">
+                    <h4>Art by:</h4>
+                <div>
+                    @foreach ( $comic['artists'] as $artist )
+                    <a href=""> {{$artist}}</a>
+                    @endforeach
+                </div>
+            </div>
+            <div class="row row_3">
+                    <h4>Written by</h4>
+                <div>
+                    @foreach ( $comic['writers'] as $writer )
+                    <a href=""> {{$writer}}</a>
+                    @endforeach
+                </div>
+
+            </div>    
         </div>
-        <div class="container_comic-details__bottom_right">
+        <div class="container_comic-details__bottom__right">
+            <div class="row row_1">
+                <h2>Specs</h2>
+            </div>
+            <div class="row row_2">
+                    <h4>Series:</h4>
+                <div>
+                    <a href=""> {{$comic['series']}}</a>
+                </div>
+            </div>
+            <div class="row row_3">
+                    <h4>U.S. Price:</h4>
+                <div>
+                    <span>{{$comic['price']}}</span>
+                </div>
+            </div>   
+            <div class="row row_4">
+                    <h4>On Sale Date:</h4>
+                <div>
+                    <span>{{$comic['sale_date']}}</span>
+                </div>
+            </div>   
 
         </div>
+
         <div class="container_comic-details__bottom_bottom">
-
+            BOTTOM
         </div>
     </section>
 </main>
