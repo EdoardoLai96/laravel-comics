@@ -14,6 +14,7 @@
 <body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
 
     @include('partials.header')
+    @include('partials.jumbotron')
 
     <main>
         @yield('content')

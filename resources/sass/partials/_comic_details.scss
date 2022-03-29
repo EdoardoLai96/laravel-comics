@@ -8,7 +8,35 @@
         display: flex;
         padding: 3rem;
         justify-content: center;
-        .container_comic-details{
+        a{
+            position: absolute;
+            bottom: 21rem;
+            div{
+                background-color: white;
+                width: 192px;
+                height: 291px;
+                border: 2px solid white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .bottom_text,  .top_text{
+                    height: min-content;
+                    color: white;
+                    background-color: #3b99ef;
+                    text-transform: uppercase;
+                }
+                .bottom_text{
+                    text-align: center;
+                }
+                .top_text{
+                    width: min-content;
+                    white-space: nowrap;
+                    padding: 1px;
+                }
+            }
+        }
+        .container_comic-details__top{
+            position: relative;
             h1{
                 text-transform: uppercase;
             }
