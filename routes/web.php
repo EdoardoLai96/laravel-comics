@@ -1,6 +1,8 @@
 <?php
 
+use Hamcrest\Type\IsNumeric;
 use Illuminate\Support\Facades\Route;
+use PhpParser\Node\Expr\FuncCall;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,17 @@ Route::get('/', function () {
     $comics = config('comics');
 
 
-    $data =['comics'=> $comics];
-    return view('home',$data);
+    return view('home',['comics' => $comics]);
+});
+
+Route::get('/comic_details/{comic_id}', function($comic_id){
+    
+    $comics = config('comics');
+
+    if (is_numeric($comic_id) && $comic_id >= 0 && $comic_id <= count($comics)){
+        $comic = $comics[$comic_id];
+        return view('comic_details', ['comic'=>$comic]);
+    }else{
+        abort(404);
+    }
 });

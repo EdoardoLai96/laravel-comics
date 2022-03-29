@@ -226,3 +226,36 @@ main .load_more {
   margin-bottom: 20px;
 }
 
+.main_comic-details .comic-details__top {
+  background-color: white;
+  display: flex;
+  padding: 5rem;
+  justify-content: center;
+}
+
+.main_comic-details .comic-details__top .container_comic-details .price-box {
+  display: flex;
+  background-color: greenyellow;
+}
+
+.main_comic-details .comic-details__top .container_comic-details .price-box .price-box__left {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  padding-right: 1rem;
+}
+
+.main_comic-details .comic-details__top .container_comic-details .price-box .price-box__right {
+  flex-basis: 20%;
+  text-align: center;
+  border-left: 1px solid black;
+}
+
+.main_comic-details .comic-details__top .container_comic-details .text-box {
+  max-width: 500px;
+}
+
+.main_comic-details .comic-details__top .adv_container {
+  padding-left: 2rem;
+}
+

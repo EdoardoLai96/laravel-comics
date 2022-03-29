@@ -9,10 +9,13 @@
         
     </div>
     <div class="container">
-        @foreach ($comics as $comic)
+        @foreach ($comics as $key => $comic)
         <div class="card_box">
             <img src="{{$comic['thumb']}}">
-            <h4 class="card_title">{{$comic['title']}}</h4>
+            <a href="comic_details/{{$key}}">
+                <h4 class="card_title">{{$comic['title']}}</h4>
+            </a>
+            {{-- <a href="/comic_details/{{$key}}"></a> --}}
         </div>
         @endforeach
         <div class="load_more top">

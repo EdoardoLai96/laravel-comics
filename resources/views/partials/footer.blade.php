@@ -90,7 +90,7 @@
     </div>
 
       <div class="list_container_dx">
-        <img src="img/dc-logo-bg.png" alt="">
+        <img src="/img/dc-logo-bg.png" alt="">
       </div>
 </section>
 
@@ -103,19 +103,19 @@
   <div class="footer_dx">
     <h3>FOLLOW US</h3>
     <div class="icon_box">
-      <img src= "img/footer-facebook.png">
+      <img src= "/img/footer-facebook.png">
     </div>
     <div class="icon_box">
-      <img src= "img/footer-twitter.png">
+      <img src= "/img/footer-twitter.png">
     </div>
     <div class="icon_box">
-      <img src= "img/footer-youtube.png">
+      <img src= "/img/footer-youtube.png">
     </div>
     <div class="icon_box">
-      <img src= "img/footer-pinterest.png">
+      <img src= "/img/footer-pinterest.png">
     </div>
     <div class="icon_box">
-      <img src= "img/footer-periscope.png">
+      <img src= "/img/footer-periscope.png">
     </div>
   </div>
 </section>

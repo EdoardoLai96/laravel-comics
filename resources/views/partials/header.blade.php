@@ -1,13 +1,13 @@
 <header>
   <div class="logo_box">
-    <img src="img/dc-logo.png" >
+    <img src="/img/dc-logo.png" >
   </div>
     <ul class="nav">
       <li>
         <a href="">CHARACTERS</a>
       </li>
       <li>
-        <a href="">COMICS</a>
+        <a href="/">COMICS</a>
       </li>
       <li>
         <a href="">MOVIES</a>

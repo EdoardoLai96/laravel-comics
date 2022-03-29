@@ -1,0 +1,33 @@
+.main_comic-details{
+    .comic-details__top{
+        background-color: white;
+        display: flex;
+        padding: 5rem;
+        justify-content: center;
+        .container_comic-details{
+            .price-box{
+                display: flex;
+                background-color: greenyellow;
+                .price-box__left{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-basis: 80%;
+                    padding-right: 1rem;
+                }
+                .price-box__right{
+                    flex-basis: 20%;
+                    text-align: center;
+                    border-left: 1px solid black;
+                }
+            }
+            .text-box{
+                max-width: 500px;
+            }
+        }
+        .adv_container{
+            padding-left: 2rem;
+        }
+    }
+
+
+}
