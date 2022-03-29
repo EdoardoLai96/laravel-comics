@@ -26,6 +26,11 @@ a{
         align-items: center;
           border-bottom: 10px solid transparent;
           border-top: 10px solid transparent;
+          &.active{
+            border-bottom: 10px solid $primaryColor;
+            color: $primaryColor;
+            transition: 0.3s;
+          }
         &:hover{
           border-bottom: 10px solid $primaryColor;
           color: $primaryColor;
@@ -42,10 +47,4 @@ a{
         }
       }
     }
-    // #jumbotron{
-    //   height: 200px;
-    //   background-image: url("/img/jumbotron.jpg");
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    // }
     }

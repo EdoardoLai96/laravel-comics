@@ -31,6 +31,12 @@ header ul li {
   border-top: 10px solid transparent;
 }
 
+header ul li.active {
+  border-bottom: 10px solid #3880f1;
+  color: #3880f1;
+  transition: 0.3s;
+}
+
 header ul li:hover {
   border-bottom: 10px solid #3880f1;
   color: #3880f1;

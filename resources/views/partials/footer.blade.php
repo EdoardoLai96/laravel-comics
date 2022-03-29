@@ -102,21 +102,21 @@
   </div>
   <div class="footer_dx">
     <h3>FOLLOW US</h3>
-    <div class="icon_box">
+    <a href="#" class="icon_box">
       <img src= "/img/footer-facebook.png">
-    </div>
-    <div class="icon_box">
+    </a>
+    <a href="#" class="icon_box">
       <img src= "/img/footer-twitter.png">
-    </div>
-    <div class="icon_box">
+    </a>
+    <a href="#" class="icon_box">
       <img src= "/img/footer-youtube.png">
-    </div>
-    <div class="icon_box">
+    </a>
+    <a href="#" class="icon_box">
       <img src= "/img/footer-pinterest.png">
-    </div>
-    <div class="icon_box">
+    </a>
+    <a href="#" class="icon_box">
       <img src= "/img/footer-periscope.png">
-    </div>
+    </a>
   </div>
 </section>
 

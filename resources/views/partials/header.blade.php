@@ -6,8 +6,8 @@
       <li>
         <a href="">CHARACTERS</a>
       </li>
-      <li>
-        <a href="/">COMICS</a>
+      <li class="{{Request::route()->getName() == 'comics' || 'comic_details' ? 'active' : ''}}">
+        <a href="{{route('comics') }}">COMICS</a>
       </li>
       <li>
         <a href="">MOVIES</a>

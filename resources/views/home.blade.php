@@ -5,16 +5,12 @@
 @section('content')
 <main class="main_home">
 
-    {{-- <div class="jumbotron">
-        
-    </div> --}}
     <div class="container">
         @foreach ($comics as $key => $comic)
-        <a href="comic_details/{{$key}}">
+        <a class="" href="{{route('comic_details', ['comic_id' => $key])}}">
             <div class="card_box">
                 <img src="{{$comic['thumb']}}">
                     <h4 class="card_title">{{$comic['title']}}</h4>
-                    {{-- <a href="/comic_details/{{$key}}"></a> --}}
                 </div>
         </a>
         @endforeach

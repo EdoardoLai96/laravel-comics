@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 
     return view('home',['comics' => $comics]);
-});
+})->name(('comics'));
 
 Route::get('/comic_details/{comic_id}', function($comic_id){
     
@@ -32,4 +32,4 @@ Route::get('/comic_details/{comic_id}', function($comic_id){
     }else{
         abort(404);
     }
-});
+})->name('comic_details');
