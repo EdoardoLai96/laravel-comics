@@ -8,7 +8,7 @@
     </section>
     <section class="comic-details__top">
         <div class="container_comic-details__top">
-            <a href="/">
+            <a href="{{route('comics')}}">
                 <div style="background-image: url({{$comic['thumb']}})"> 
                     <p class="top_text">comic book</p>
                     <p class="bottom_text">view gallery</p>
